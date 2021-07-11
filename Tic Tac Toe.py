@@ -22,7 +22,7 @@ def player_marker():
         continue
 #marker = player_marker()
     
-7
+
 def player_pos(marker,board):
     position_flag = False
     while position_flag == False:
@@ -68,9 +68,9 @@ def replay():
         game = (input('Do you want to play again (Y or N): ')).upper()
         if game in ('Y','N'):
             if game == "Y":
-                flag = True
                 return True
             if game == 'N':
+                flag = True
                 return False
         else:
             print("Invalid choice")
